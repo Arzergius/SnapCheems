@@ -3,29 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B64434262A2884C2005392D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64434252A2884C2005392D2 /* GoogleService-Info.plist */; };
 		B6D922A52A28813B00E2D36E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A42A28813B00E2D36E /* AppDelegate.swift */; };
 		B6D922A72A28813B00E2D36E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A62A28813B00E2D36E /* SceneDelegate.swift */; };
-		B6D922A92A28813B00E2D36E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A82A28813B00E2D36E /* ViewController.swift */; };
+		B6D922A92A28813B00E2D36E /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */; };
 		B6D922AC2A28813B00E2D36E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D922AA2A28813B00E2D36E /* Main.storyboard */; };
 		B6D922AF2A28813B00E2D36E /* SnapCheems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */; };
 		B6D922B12A28813D00E2D36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D922B02A28813D00E2D36E /* Assets.xcassets */; };
 		B6D922B42A28813D00E2D36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D922B22A28813D00E2D36E /* LaunchScreen.storyboard */; };
+		DC74C3B515F68EE5A1CD2682 /* Pods_SnapCheems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0921F87F0EA57BCAFD8F2EE1 /* Pods-SnapCheems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCheems.release.xcconfig"; path = "Target Support Files/Pods-SnapCheems/Pods-SnapCheems.release.xcconfig"; sourceTree = "<group>"; };
+		3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapCheems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64434252A2884C2005392D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6D922A12A28813B00E2D36E /* SnapCheems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCheems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D922A42A28813B00E2D36E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D922A62A28813B00E2D36E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6D922A82A28813B00E2D36E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
 		B6D922AB2A28813B00E2D36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6D922AE2A28813B00E2D36E /* SnapCheems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnapCheems.xcdatamodel; sourceTree = "<group>"; };
 		B6D922B02A28813D00E2D36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D922B32A28813D00E2D36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D922B52A28813D00E2D36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E170DD1D05047255775319 /* Pods-SnapCheems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCheems.debug.xcconfig"; path = "Target Support Files/Pods-SnapCheems/Pods-SnapCheems.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC74C3B515F68EE5A1CD2682 /* Pods_SnapCheems.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A98BFFBCE786B7872ADCA986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6D922982A28813B00E2D36E = {
 			isa = PBXGroup;
 			children = (
 				B6D922A32A28813B00E2D36E /* SnapCheems */,
 				B6D922A22A28813B00E2D36E /* Products */,
+				B72FD341B5AA94073B164C26 /* Pods */,
+				A98BFFBCE786B7872ADCA986 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +77,24 @@
 			children = (
 				B6D922A42A28813B00E2D36E /* AppDelegate.swift */,
 				B6D922A62A28813B00E2D36E /* SceneDelegate.swift */,
-				B6D922A82A28813B00E2D36E /* ViewController.swift */,
+				B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */,
 				B6D922AA2A28813B00E2D36E /* Main.storyboard */,
 				B6D922B02A28813D00E2D36E /* Assets.xcassets */,
 				B6D922B22A28813D00E2D36E /* LaunchScreen.storyboard */,
 				B6D922B52A28813D00E2D36E /* Info.plist */,
 				B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */,
+				B64434252A2884C2005392D2 /* GoogleService-Info.plist */,
 			);
 			path = SnapCheems;
+			sourceTree = "<group>";
+		};
+		B72FD341B5AA94073B164C26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6E170DD1D05047255775319 /* Pods-SnapCheems.debug.xcconfig */,
+				0921F87F0EA57BCAFD8F2EE1 /* Pods-SnapCheems.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6D922B82A28813D00E2D36E /* Build configuration list for PBXNativeTarget "SnapCheems" */;
 			buildPhases = (
+				C577460E2FEDFAEE8D1540BF /* [CP] Check Pods Manifest.lock */,
 				B6D9229D2A28813B00E2D36E /* Sources */,
 				B6D9229E2A28813B00E2D36E /* Frameworks */,
 				B6D9229F2A28813B00E2D36E /* Resources */,
+				DDFEB3FE316DE814577B9276 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,7 +135,7 @@
 				};
 			};
 			buildConfigurationList = B6D9229C2A28813B00E2D36E /* Build configuration list for PBXProject "SnapCheems" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D922B42A28813D00E2D36E /* LaunchScreen.storyboard in Resources */,
+				B64434262A2884C2005392D2 /* GoogleService-Info.plist in Resources */,
 				B6D922B12A28813D00E2D36E /* Assets.xcassets in Resources */,
 				B6D922AC2A28813B00E2D36E /* Main.storyboard in Resources */,
 			);
@@ -136,12 +166,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C577460E2FEDFAEE8D1540BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapCheems-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFEB3FE316DE814577B9276 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapCheems/Pods-SnapCheems-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapCheems/Pods-SnapCheems-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapCheems/Pods-SnapCheems-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6D9229D2A28813B00E2D36E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D922A92A28813B00E2D36E /* ViewController.swift in Sources */,
+				B6D922A92A28813B00E2D36E /* iniciarSesionViewController.swift in Sources */,
 				B6D922A52A28813B00E2D36E /* AppDelegate.swift in Sources */,
 				B6D922AF2A28813B00E2D36E /* SnapCheems.xcdatamodeld in Sources */,
 				B6D922A72A28813B00E2D36E /* SceneDelegate.swift in Sources */,
@@ -286,6 +358,7 @@
 		};
 		B6D922B92A28813D00E2D36E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E170DD1D05047255775319 /* Pods-SnapCheems.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +387,7 @@
 		};
 		B6D922BA2A28813D00E2D36E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0921F87F0EA57BCAFD8F2EE1 /* Pods-SnapCheems.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
