@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B64434262A2884C2005392D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64434252A2884C2005392D2 /* GoogleService-Info.plist */; };
+		B64D9C192A28A4EE00B9C196 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B64D9C182A28A4EE00B9C196 /* GoogleSignIn */; };
+		B64D9C1B2A28A4EE00B9C196 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */; };
+		B64D9C1D2A28A55500B9C196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64D9C1C2A28A55500B9C196 /* GoogleService-Info.plist */; };
 		B6D922A52A28813B00E2D36E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A42A28813B00E2D36E /* AppDelegate.swift */; };
 		B6D922A72A28813B00E2D36E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A62A28813B00E2D36E /* SceneDelegate.swift */; };
 		B6D922A92A28813B00E2D36E /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */; };
@@ -21,7 +23,8 @@
 /* Begin PBXFileReference section */
 		0921F87F0EA57BCAFD8F2EE1 /* Pods-SnapCheems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCheems.release.xcconfig"; path = "Target Support Files/Pods-SnapCheems/Pods-SnapCheems.release.xcconfig"; sourceTree = "<group>"; };
 		3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapCheems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B64434252A2884C2005392D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B64D9C112A289DE900B9C196 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64D9C1C2A28A55500B9C196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6D922A12A28813B00E2D36E /* SnapCheems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCheems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D922A42A28813B00E2D36E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D922A62A28813B00E2D36E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64D9C1B2A28A4EE00B9C196 /* GoogleSignInSwift in Frameworks */,
 				DC74C3B515F68EE5A1CD2682 /* Pods_SnapCheems.framework in Frameworks */,
+				B64D9C192A28A4EE00B9C196 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,7 @@
 		A98BFFBCE786B7872ADCA986 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B64D9C112A289DE900B9C196 /* GoogleSignIn.framework */,
 				3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */,
 			);
 			name = Frameworks;
@@ -83,7 +89,7 @@
 				B6D922B22A28813D00E2D36E /* LaunchScreen.storyboard */,
 				B6D922B52A28813D00E2D36E /* Info.plist */,
 				B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */,
-				B64434252A2884C2005392D2 /* GoogleService-Info.plist */,
+				B64D9C1C2A28A55500B9C196 /* GoogleService-Info.plist */,
 			);
 			path = SnapCheems;
 			sourceTree = "<group>";
@@ -115,6 +121,10 @@
 			dependencies = (
 			);
 			name = SnapCheems;
+			packageProductDependencies = (
+				B64D9C182A28A4EE00B9C196 /* GoogleSignIn */,
+				B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */,
+			);
 			productName = SnapCheems;
 			productReference = B6D922A12A28813B00E2D36E /* SnapCheems.app */;
 			productType = "com.apple.product-type.application";
@@ -143,6 +153,10 @@
 				Base,
 			);
 			mainGroup = B6D922982A28813B00E2D36E;
+			packageReferences = (
+				B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				B65814B72A2A973E00BF4C49 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B6D922A22A28813B00E2D36E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D922B42A28813D00E2D36E /* LaunchScreen.storyboard in Resources */,
-				B64434262A2884C2005392D2 /* GoogleService-Info.plist in Resources */,
+				B64D9C1D2A28A55500B9C196 /* GoogleService-Info.plist in Resources */,
 				B6D922B12A28813D00E2D36E /* Assets.xcassets in Resources */,
 				B6D922AC2A28813B00E2D36E /* Main.storyboard in Resources */,
 			);
@@ -436,6 +450,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		B65814B72A2A973E00BF4C49 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B64D9C182A28A4EE00B9C196 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */ = {

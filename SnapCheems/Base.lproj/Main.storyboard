@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -64,13 +63,28 @@
                                     <action selector="IniciarSesionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UZ7-bM-XQb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BQ-MP-rFY">
+                                <rect key="frame" x="129" y="584" width="135" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="78p-Cl-uZd"/>
+                                    <constraint firstAttribute="width" constant="135" id="REW-vp-MeV"/>
+                                </constraints>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="Icon-20" title="Google"/>
+                                <connections>
+                                    <action selector="loginGoo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0HW-ov-O7M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.97167542185797484" green="0.99499794495389715" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="9BQ-MP-rFY" firstAttribute="centerX" secondItem="DzS-DV-pEU" secondAttribute="centerX" id="9sn-ec-0m5"/>
                             <constraint firstItem="DzS-DV-pEU" firstAttribute="top" secondItem="dhg-DD-rMF" secondAttribute="bottom" constant="30" id="Cjq-ds-pXG"/>
                             <constraint firstItem="MYa-Cd-Sdn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="DHB-LU-cqv"/>
                             <constraint firstItem="0wC-6N-sKN" firstAttribute="top" secondItem="Bkb-5R-Qln" secondAttribute="bottom" constant="25" id="Dei-cT-hAh"/>
+                            <constraint firstItem="9BQ-MP-rFY" firstAttribute="top" secondItem="DzS-DV-pEU" secondAttribute="bottom" constant="56" id="DgK-99-WR4"/>
                             <constraint firstItem="dhg-DD-rMF" firstAttribute="top" secondItem="Jra-Zl-3FT" secondAttribute="bottom" constant="38.333333333333314" id="Jdy-Rd-nfU"/>
                             <constraint firstItem="dhg-DD-rMF" firstAttribute="centerX" secondItem="Jra-Zl-3FT" secondAttribute="centerX" id="Nam-ao-nGk"/>
                             <constraint firstItem="Bkb-5R-Qln" firstAttribute="top" secondItem="MYa-Cd-Sdn" secondAttribute="bottom" constant="25" id="WNY-sR-PIh"/>
@@ -93,9 +107,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Icon-20" width="20" height="20"/>
         <image name="cheems_dinosaurio_by_rbkwong_de9jl45" width="2199" height="2544"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
