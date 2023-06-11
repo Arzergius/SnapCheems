@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B64D9C192A28A4EE00B9C196 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B64D9C182A28A4EE00B9C196 /* GoogleSignIn */; };
-		B64D9C1B2A28A4EE00B9C196 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */; };
+		B6386FC72A347A9300E0DF00 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6386FC62A347A9300E0DF00 /* ElegirUsuarioViewController.swift */; };
+		B6386FCC2A3480C500E0DF00 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6386FCB2A3480C500E0DF00 /* Usuario.swift */; };
+		B63D300A2A35C96E00EBE5CF /* crearusuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63D30092A35C96E00EBE5CF /* crearusuarioViewController.swift */; };
 		B64D9C1D2A28A55500B9C196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64D9C1C2A28A55500B9C196 /* GoogleService-Info.plist */; };
 		B6D922A52A28813B00E2D36E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A42A28813B00E2D36E /* AppDelegate.swift */; };
 		B6D922A72A28813B00E2D36E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D922A62A28813B00E2D36E /* SceneDelegate.swift */; };
@@ -17,12 +18,18 @@
 		B6D922AF2A28813B00E2D36E /* SnapCheems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */; };
 		B6D922B12A28813D00E2D36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D922B02A28813D00E2D36E /* Assets.xcassets */; };
 		B6D922B42A28813D00E2D36E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D922B22A28813D00E2D36E /* LaunchScreen.storyboard */; };
+		B6DE39B02A30DF76005AFFFE /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE39AF2A30DF76005AFFFE /* SnapsViewController.swift */; };
+		B6DE39B22A30EB7D005AFFFE /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE39B12A30EB7D005AFFFE /* ImagenViewController.swift */; };
 		DC74C3B515F68EE5A1CD2682 /* Pods_SnapCheems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0921F87F0EA57BCAFD8F2EE1 /* Pods-SnapCheems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCheems.release.xcconfig"; path = "Target Support Files/Pods-SnapCheems/Pods-SnapCheems.release.xcconfig"; sourceTree = "<group>"; };
 		3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapCheems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6386FC62A347A9300E0DF00 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		B6386FCB2A3480C500E0DF00 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		B63D30092A35C96E00EBE5CF /* crearusuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crearusuarioViewController.swift; sourceTree = "<group>"; };
+		B646BEC22A306C99005CEC2C /* SnapCheems.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnapCheems.entitlements; sourceTree = "<group>"; };
 		B64D9C112A289DE900B9C196 /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64D9C1C2A28A55500B9C196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B6D922A12A28813B00E2D36E /* SnapCheems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCheems.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +41,8 @@
 		B6D922B02A28813D00E2D36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D922B32A28813D00E2D36E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D922B52A28813D00E2D36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DE39AF2A30DF76005AFFFE /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		B6DE39B12A30EB7D005AFFFE /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
 		B6E170DD1D05047255775319 /* Pods-SnapCheems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapCheems.debug.xcconfig"; path = "Target Support Files/Pods-SnapCheems/Pods-SnapCheems.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,9 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64D9C1B2A28A4EE00B9C196 /* GoogleSignInSwift in Frameworks */,
 				DC74C3B515F68EE5A1CD2682 /* Pods_SnapCheems.framework in Frameworks */,
-				B64D9C192A28A4EE00B9C196 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +65,26 @@
 				3898B8990F740B496DC6377C /* Pods_SnapCheems.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6386FC82A34803B00E0DF00 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE39B12A30EB7D005AFFFE /* ImagenViewController.swift */,
+				B6DE39AF2A30DF76005AFFFE /* SnapsViewController.swift */,
+				B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */,
+				B6386FC62A347A9300E0DF00 /* ElegirUsuarioViewController.swift */,
+				B63D30092A35C96E00EBE5CF /* crearusuarioViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6386FCA2A34809100E0DF00 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				B6386FCB2A3480C500E0DF00 /* Usuario.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 		B6D922982A28813B00E2D36E = {
@@ -81,9 +108,11 @@
 		B6D922A32A28813B00E2D36E /* SnapCheems */ = {
 			isa = PBXGroup;
 			children = (
+				B6386FCA2A34809100E0DF00 /* Modelos */,
+				B6386FC82A34803B00E0DF00 /* ViewControllers */,
+				B646BEC22A306C99005CEC2C /* SnapCheems.entitlements */,
 				B6D922A42A28813B00E2D36E /* AppDelegate.swift */,
 				B6D922A62A28813B00E2D36E /* SceneDelegate.swift */,
-				B6D922A82A28813B00E2D36E /* iniciarSesionViewController.swift */,
 				B6D922AA2A28813B00E2D36E /* Main.storyboard */,
 				B6D922B02A28813D00E2D36E /* Assets.xcassets */,
 				B6D922B22A28813D00E2D36E /* LaunchScreen.storyboard */,
@@ -122,8 +151,6 @@
 			);
 			name = SnapCheems;
 			packageProductDependencies = (
-				B64D9C182A28A4EE00B9C196 /* GoogleSignIn */,
-				B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */,
 			);
 			productName = SnapCheems;
 			productReference = B6D922A12A28813B00E2D36E /* SnapCheems.app */;
@@ -154,8 +181,6 @@
 			);
 			mainGroup = B6D922982A28813B00E2D36E;
 			packageReferences = (
-				B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
-				B65814B72A2A973E00BF4C49 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = B6D922A22A28813B00E2D36E /* Products */;
 			projectDirPath = "";
@@ -227,8 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6386FCC2A3480C500E0DF00 /* Usuario.swift in Sources */,
+				B6386FC72A347A9300E0DF00 /* ElegirUsuarioViewController.swift in Sources */,
+				B6DE39B02A30DF76005AFFFE /* SnapsViewController.swift in Sources */,
 				B6D922A92A28813B00E2D36E /* iniciarSesionViewController.swift in Sources */,
 				B6D922A52A28813B00E2D36E /* AppDelegate.swift in Sources */,
+				B63D300A2A35C96E00EBE5CF /* crearusuarioViewController.swift in Sources */,
+				B6DE39B22A30EB7D005AFFFE /* ImagenViewController.swift in Sources */,
 				B6D922AF2A28813B00E2D36E /* SnapCheems.xcdatamodeld in Sources */,
 				B6D922A72A28813B00E2D36E /* SceneDelegate.swift in Sources */,
 			);
@@ -376,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapCheems/SnapCheems.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W6AAVJBBWK;
@@ -405,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnapCheems/SnapCheems.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W6AAVJBBWK;
@@ -450,38 +482,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-		B65814B72A2A973E00BF4C49 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B64D9C182A28A4EE00B9C196 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		B64D9C1A2A28A4EE00B9C196 /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B64D9C172A28A4EE00B9C196 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		B6D922AD2A28813B00E2D36E /* SnapCheems.xcdatamodeld */ = {
