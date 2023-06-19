@@ -21,4 +21,5 @@ pod 'GoogleSignIn'
 pod 'GoogleSignInSwiftSupport'
 pod 'FirebaseStorage'
 pod 'FirebaseDatabase'
+pod 'SDWebImage'
 end
